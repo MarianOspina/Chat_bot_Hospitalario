@@ -11,13 +11,10 @@ body {
 .container {
     text-align: center;
 }
-.logo {
+.logo img {
     width: 250px;
     height: 150px;
-    background-image: url('assets/img/logo.png'); /* Ruta relativa de la imagen */
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin: 0 auto 20px;
+    margin-bottom: 20px; /* Espacio inferior */
 }
 h1 {
     color: #333;
@@ -32,7 +29,7 @@ h1 {
 }
 .chat-input {
     width: calc(100% - 40px);
-    padding: 20px; /* Aumenta el tamaño de la barra de entrada */
+    padding: 15px; /* Aumenta el tamaño de la barra de entrada */
     margin-top: 20px; /* Ajusta el margen superior */
     border: 1px solid #ccc;
     border-radius: 5px;
